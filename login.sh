@@ -1,5 +1,5 @@
 #!/bin/bash
-number=$(cat /etc/digi/number)
+number=$(cat /etc/number)
 curl --request GET \
   --url 'https://mydigiapp.digi.com.my/auth/requestTac?msisdn=${number}' \
   --header 'Accept: application/json' \
