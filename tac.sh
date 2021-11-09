@@ -1,6 +1,6 @@
 #!/bin/bash
-number=$(cat /etc/digi/number)
-tac=$(cat /etc/digi/tac)
+number=$(cat /etc/number)
+tac=$(cat /etc/tac)
 curl --request POST \
   --url https://mydigiapp.digi.com.my/auth/login \
   --header 'Accept: application/json' \
